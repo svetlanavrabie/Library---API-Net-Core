@@ -8462,11 +8462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MesCours\\Net.Core\\LibraryAPI\\LibraryAPI\\LibraryAPI.csproj",
+      "projectUniqueName": "G:\\MesCours\\Net.Core\\GitRepository\\Library-admin-tools-API\\LibraryAPI\\LibraryAPI.csproj",
       "projectName": "LibraryAPI",
-      "projectPath": "G:\\MesCours\\Net.Core\\LibraryAPI\\LibraryAPI\\LibraryAPI.csproj",
+      "projectPath": "G:\\MesCours\\Net.Core\\GitRepository\\Library-admin-tools-API\\LibraryAPI\\LibraryAPI.csproj",
       "packagesPath": "C:\\Users\\laurash\\.nuget\\packages\\",
-      "outputPath": "G:\\MesCours\\Net.Core\\LibraryAPI\\LibraryAPI\\obj\\",
+      "outputPath": "G:\\MesCours\\Net.Core\\GitRepository\\Library-admin-tools-API\\LibraryAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

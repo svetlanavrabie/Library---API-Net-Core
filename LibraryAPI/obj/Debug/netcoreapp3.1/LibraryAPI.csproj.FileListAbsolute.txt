@@ -139,6 +139,8 @@ G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\LibraryAPI.pdb
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -177,6 +179,7 @@ G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
@@ -258,4 +261,3 @@ G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.pdb
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.genruntimeconfig.cache
-G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.csprojAssemblyReference.cache

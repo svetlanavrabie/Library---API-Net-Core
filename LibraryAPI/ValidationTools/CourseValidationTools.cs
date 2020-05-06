@@ -7,12 +7,12 @@ namespace LibraryAPI.ValidationTools
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            var course = (CreateCourseDto)validationContext.ObjectInstance;
+            var course = (CourseManipulationDto)validationContext.ObjectInstance;
 
             if (course.Title == course.Description)
             {
               return new ValidationResult(ErrorMessage,
-                new[] { nameof(CreateCourseDto) });
+                new[] { nameof(CourseManipulationDto) });
             }
 
             return ValidationResult.Success;

@@ -11,8 +11,8 @@ namespace LibraryAPI.ValidationTools
 
             if (course.Title == course.Description)
             {
-              return new ValidationResult(ErrorMessage,
-                new[] { nameof(CourseManipulationDto) });
+                return new ValidationResult(ErrorMessage,
+                  new[] { nameof(CourseManipulationDto) });
             }
 
             return ValidationResult.Success;

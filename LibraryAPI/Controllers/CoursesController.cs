@@ -48,7 +48,7 @@ namespace LibraryAPI.Controllers
 
             var course = _courseLibraryRepository.GetCourse(authorId, courseId);
 
-            if (course==null)
+            if (course == null)
             {
                 return NotFound();
             }
@@ -72,7 +72,7 @@ namespace LibraryAPI.Controllers
 
             var courseToReturn = _mapper.Map<CoursDto>(courseEntity);
 
-            return CreatedAtRoute("GetCourseForAuhtor", new {authorId= authorId, courseId = courseToReturn.Id }, courseToReturn);
+            return CreatedAtRoute("GetCourseForAuhtor", new { authorId = authorId, courseId = courseToReturn.Id }, courseToReturn);
         }
 
         [HttpPut("{courseId}")]
@@ -111,8 +111,8 @@ namespace LibraryAPI.Controllers
         }
 
         [HttpPatch("{courseId}")]
-        public IActionResult PartiallyUpdateCourseForAthor(Guid authorId, Guid courseId, 
-            JsonPatchDocument <UpdateCourseDto> patchDocument)
+        public IActionResult PartiallyUpdateCourseForAthor(Guid authorId, Guid courseId,
+            JsonPatchDocument<UpdateCourseDto> patchDocument)
         {
             if (!_courseLibraryRepository.AuthorExists(authorId))
             {
@@ -160,6 +160,29 @@ namespace LibraryAPI.Controllers
 
             return NoContent();
         }
+
+        [HttpDelete("{courseId}")]
+        public ActionResult DeleteCourseForAthor(Guid authorId, Guid courseId)
+        {
+            if (!_courseLibraryRepository.AuthorExists(authorId))
+            {
+                return NotFound();
+            }
+
+            var course = _courseLibraryRepository.GetCourse(authorId, courseId);
+
+            if (course == null)
+            {
+                return NotFound();
+            }
+
+            _courseLibraryRepository.DeleteCourse(course);
+
+            _courseLibraryRepository.Save();
+
+            return NoContent();
+        }
+
 
         public override ActionResult ValidationProblem([ActionResultObjectValue] ModelStateDictionary modelStateDictionary)
         {

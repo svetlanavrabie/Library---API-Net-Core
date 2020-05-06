@@ -1,10 +1,7 @@
-﻿using System;
-
-namespace LibraryAPI.Dtos
+﻿namespace LibraryAPI.Dtos
 {
-    public class CreateCourseDto
+    public class CreateCourseDto : CourseManipulationDto
     {
-        public string Title { get; set; }
-        public string Description { get; set; }
+
     }
 }

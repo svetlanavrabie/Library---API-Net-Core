@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RKGA1wdBj1NyR5d6GOOF4iy7OzEY121dFLA0bQmxY0vfnu82sJrOTo1Ct91LQsCPu0Dl+K/FO0C3YIht1m9jkQ==",
+  "dgSpecHash": "DgjAImDZv21wyYYMqRutW93PG7/soc4Y3WTXb0n57G3TnDLJ68ze/r8a2keULEpeU4tWroF+ysXn9FUpxar7gw==",
   "success": true,
   "projectFilePath": "G:\\MesCours\\Net.Core\\GitRepository\\Library-admin-tools-API\\LibraryAPI\\LibraryAPI.csproj",
   "expectedPackageFiles": [
@@ -113,6 +113,7 @@
     "C:\\Users\\laurash\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\laurash\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\laurash\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\laurash\\.nuget\\packages\\system.linq.dynamic.core\\1.1.0\\system.linq.dynamic.core.1.1.0.nupkg.sha512",
     "C:\\Users\\laurash\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\laurash\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\laurash\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",

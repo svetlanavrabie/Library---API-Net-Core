@@ -1,7 +1,9 @@
 ﻿using CourseLibrary.API.DbContexts;
 using CourseLibrary.API.Entities;
+using LibraryAPI.Dtos;
 using LibraryAPI.Helpers;
 using LibraryAPI.ResourcesParameters;
+using LibraryAPI.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +13,12 @@ namespace CourseLibrary.API.Services
     public class CourseLibraryRepository : ICourseLibraryRepository, IDisposable
     {
         private readonly CourseLibraryContext _context;
+        private readonly IPropertyMappingService _propertyMappingService;
 
-        public CourseLibraryRepository(CourseLibraryContext context )
+        public CourseLibraryRepository(CourseLibraryContext context, IPropertyMappingService propertyMappingService)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
+            _propertyMappingService = propertyMappingService ?? throw new ArgumentNullException(nameof(propertyMappingService));
         }
 
         public void AddCourse(Guid authorId, Course course)
@@ -28,16 +32,16 @@ namespace CourseLibrary.API.Services
             {
                 throw new ArgumentNullException(nameof(course));
             }
-            // always set the AuthorId to the passed-in authorId
+
             course.AuthorId = authorId;
-            _context.Courses.Add(course); 
-        }         
+            _context.Courses.Add(course);
+        }
 
         public void DeleteCourse(Course course)
         {
             _context.Courses.Remove(course);
         }
-  
+
         public Course GetCourse(Guid authorId, Guid courseId)
         {
             if (authorId == Guid.Empty)
@@ -78,7 +82,6 @@ namespace CourseLibrary.API.Services
                 throw new ArgumentNullException(nameof(author));
             }
 
-            // the repository fills the id (instead of using identity columns)
             author.Id = Guid.NewGuid();
 
             foreach (var course in author.Courses)
@@ -108,7 +111,7 @@ namespace CourseLibrary.API.Services
 
             _context.Authors.Remove(author);
         }
-        
+
         public Author GetAuthor(Guid authorId)
         {
             if (authorId == Guid.Empty)
@@ -131,26 +134,29 @@ namespace CourseLibrary.API.Services
                 throw new ArgumentNullException(nameof(resourcesParameters));
             }
 
-            //if (string.IsNullOrWhiteSpace(resourcesParameters.MainCategory) && string.IsNullOrWhiteSpace(resourcesParameters.Search))
-            //{
-            //    return GetAuthors();
-            //}
-
             var collection = _context.Authors as IQueryable<Author>;
 
             if (!string.IsNullOrWhiteSpace(resourcesParameters.MainCategory))
             {
                 var mainCategory = resourcesParameters.MainCategory.Trim();
-                collection=collection.Where(a => a.MainCategory == mainCategory);
+                collection = collection.Where(a => a.MainCategory == mainCategory);
             }
 
             if (!string.IsNullOrWhiteSpace(resourcesParameters.Search))
             {
                 var search = resourcesParameters.Search.Trim();
-                collection = collection.Where(a => a.MainCategory.Contains(search) 
-                                              || a.FirstName.Contains(search) 
+                collection = collection.Where(a => a.MainCategory.Contains(search)
+                                              || a.FirstName.Contains(search)
                                               || a.LastName.Contains(search));
             }
+
+            if (!string.IsNullOrWhiteSpace(resourcesParameters.OrderBy))
+            {
+                var authorPropertyMappingDictionary = _propertyMappingService.GetPropertyMapping<AuthorDto, Author>();
+
+                collection=collection.ApplySort(resourcesParameters.OrderBy, authorPropertyMappingDictionary);
+            }
+
 
             return PagedList<Author>.Create(collection, resourcesParameters.PageNumber, resourcesParameters.PageSize);
         }
@@ -188,7 +194,7 @@ namespace CourseLibrary.API.Services
         {
             if (disposing)
             {
-               // dispose resources when needed
+                // dispose resources when needed
             }
         }
     }

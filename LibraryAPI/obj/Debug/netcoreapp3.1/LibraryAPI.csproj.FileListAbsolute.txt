@@ -128,9 +128,13 @@ G:\MesCours\Net.Core\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp3.1\staticwebasse
 G:\MesCours\Net.Core\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.dll
 G:\MesCours\Net.Core\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.pdb
 G:\MesCours\Net.Core\LibraryAPI\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.genruntimeconfig.cache
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.csproj.CoreCompileInputs.cache
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.AssemblyInfoInputs.cache
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.AssemblyInfo.cs
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\appsettings.json
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Services\appsettings.Development.json
-G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\Services\appsettings.json
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\LibraryAPI.exe
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\LibraryAPI.deps.json
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\LibraryAPI.runtimeconfig.json
@@ -188,6 +192,7 @@ G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
@@ -250,10 +255,6 @@ G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.csproj.CoreCompileInputs.cache
-G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.MvcApplicationPartsAssemblyInfo.cache
-G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.AssemblyInfoInputs.cache
-G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.AssemblyInfo.cs
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.RazorTargetAssemblyInfo.cache
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.csproj.CopyComplete
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\staticwebassets\LibraryAPI.StaticWebAssets.Manifest.cache
@@ -261,4 +262,3 @@ G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.pdb
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.genruntimeconfig.cache
-G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.csprojAssemblyReference.cache

@@ -20,7 +20,7 @@ namespace LibraryAPI.Helpers
 
             if (string.IsNullOrWhiteSpace(fields))
             {
-                var propertyInfos = typeof(TSource).GetProperties(BindingFlags.Public | BindingFlags.Instance);
+                var propertyInfos = typeof(TSource).GetProperties(BindingFlags.IgnoreCase |BindingFlags.Public | BindingFlags.Instance);
 
                 foreach (var propertyInfo in propertyInfos)
                 {
@@ -28,6 +28,8 @@ namespace LibraryAPI.Helpers
 
                     ((IDictionary<string, object>)dataShapedObject).Add(propertyInfo.Name, propertyValue);
                 }
+
+                return dataShapedObject;
             }
 
             var fieldsAfterSplit = fields.Split(',');

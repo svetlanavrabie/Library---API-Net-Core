@@ -6,7 +6,6 @@ namespace LibraryAPI.Dtos
 {
     public class CreateAuthorDto
     {
-        public Guid Id { get; set; }
 
         [Required(ErrorMessage = "The FirstName is required.")]
         [MaxLength(50, ErrorMessage = "The FirstName should not have more than 50 characters")]
@@ -25,6 +24,5 @@ namespace LibraryAPI.Dtos
 
         public ICollection<CreateCourseDto> Courses { get; set; }
           = new List<CreateCourseDto>();
-
     }
 }

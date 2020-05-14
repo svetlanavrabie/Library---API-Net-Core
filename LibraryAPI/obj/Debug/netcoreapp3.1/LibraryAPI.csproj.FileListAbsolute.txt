@@ -262,3 +262,4 @@ G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.dll
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.pdb
 G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.genruntimeconfig.cache
+G:\MesCours\Net.Core\GitRepository\Library-admin-tools-API\LibraryAPI\obj\Debug\netcoreapp3.1\LibraryAPI.csprojAssemblyReference.cache
